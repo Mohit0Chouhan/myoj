@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '=l0*o+v*(a7_&b(mbi=q-(b8-_#)2pk9!vj50rsccw-de69%b_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1' ,'ojlive.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1' ,'liveoj.herokuapp.com']
 
 
 # Application definition
